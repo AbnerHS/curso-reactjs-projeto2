@@ -3,7 +3,6 @@ import { decrementCounter, incrementCounter } from '../../contexts/CounterProvid
 import { CounterContext } from '../../contexts/CounterProvider/context';
 
 export const Button = () => {
-  console.log('botão renderizado');
   const counterContext = useContext(CounterContext);
   const { counterState, counterDispatch } = counterContext;
 
